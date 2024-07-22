@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 
-h1 {
+.title {
      color: #464646;
 }
 
-section {
+section { 
     background-color: rgb(71, 120, 94);
 }
    
