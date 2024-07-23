@@ -5,9 +5,41 @@
     box-sizing: border-box;
 }
 
-.title {
-     color: #464646;
+body{
+    background-color: #474545;
+    color: #ffff;
+    overflow-x: hidden;
 }
+
+main{
+    width: 100vw;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title {
+     color: rgb(24, 23, 23);
+     width: 100%;
+     text-align: center;
+     margin-bottom: 10vh;
+     margin-top: 2vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #ffff;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
 
 
    
