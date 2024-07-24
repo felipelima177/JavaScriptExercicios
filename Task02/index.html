@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 02 - DS</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Reaproveitamento de função</h1>
+    <main>
+        <section>
+            <h2>Soma</h2>
+            <!-- <label for="n1">Número 01:</label><br> -->
+            <input type="number" id="n1" placeholder="Número 01">
+            <!-- <label for="n2">Número 02:</label> -->
+            <input type="number" id="n2" placeholder="Número 02">
+            <button onclick="calc('n1','n2','respSoma', '+')">Calcular</button>
+            <p id="respSoma"></p>
+        </section>
+        <section>
+            <h2>Subtração</h2>
+            <input type="number" id="n1_sub" placeholder="Número 01">
+            <input type="number" id="n2_sub" placeholder="Número 02">
+            <button onclick="calc('n1_sub','n2_sub','respSub', '-')">Calcular</button>
+            <p id="respSub"></p>
+        </section>
+        <section>
+            <h2>Divisão</h2>
+            <input type="number" id="n1_div" placeholder="Número 01">
+            <input type="number" id="n2_div" placeholder="Número 02">
+            <button onclick="calc('n1_div', 'n2_div', 'respDiv', '/')">Calcular</button>
+            <p id="respDiv"></p>
+        </section>
+        <section>
+            <h2>Multiplicação</h2>
+            <input type="number" id="n1_mul" placeholder="Número 01">
+            <input type="number" id="n2_mul" placeholder="Número 02">
+            <button onclick="calc('n1_mul', 'n2_mul', 'respMul', '*')">Calcular</button>
+            <p id="respMul"></p>
+        </section>
+    </main>
+    
+</body>
+</html>

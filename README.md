@@ -23,6 +23,7 @@ ctrl + shift + c = copiar.
 - cd <nomeDoCaminho> / cd.. / ls , ex: cd Desktop/
 
 # comandos/atalhos html
- - ctrl + shift + p = formata todo o documento
+ - Ctrl + shift + p = formata todo o documento
  - Selecionar alguma parte do texto + ctrl D = seleciona varios elementos de uma vez
+ - Segurar alt: mover parte selecionada do código para cima ou para baixo
 
