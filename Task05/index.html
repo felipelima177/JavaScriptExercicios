@@ -17,6 +17,21 @@
             box-sizing: border-box;
             font-family: "Noto Serif", serif;
         }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /*height: 100vh; */
+            padding-top: 4vh;
+         }
+         .resp{
+            border: 2px dashed black;
+            padding: 20px;
+         }
+         input, button{
+            padding: 10px;
+         }
     </style>
 </head>
 
@@ -24,6 +39,7 @@
     <h1>Age Checker</h1>
     <br>
     <input type="number" id="clientBirth" placeholder="Insert the year">
+    <br>
     <br>
     <button onclick="checkMajority()">Verify</button>
     <br>
